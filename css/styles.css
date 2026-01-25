@@ -324,7 +324,7 @@ a {
 
 .portfolio-list {
     padding-bottom: 120px;
-    max-width: 360px;
+    flex-wrap: wrap;
     display: flex;
     gap: 48px 24px;
 }
