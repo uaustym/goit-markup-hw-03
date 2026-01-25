@@ -35,6 +35,7 @@ a {
 .header-container {
     display: flex;
     align-items: center;
+        
 }
 
 .header-logo {
@@ -142,9 +143,11 @@ a {
 .title-container {
     max-width: 496px;
     align-items: baseline;
+    padding: 0;
 }
 
 .page-title {
+    align-items: center;
     color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
@@ -179,7 +182,7 @@ a {
 /*#endregion hero*/
 
 /*#region features*/
-.features {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -253,12 +256,14 @@ a {
     display: flex;
     padding-bottom: 120px;
     gap: 24px;
-    max-width: 264px;
+    max-width: ((100-3*24)/4);
     
     
 }
 
 .people-list {
+    
+    
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-bottom-left-radius: 4px;
