@@ -307,7 +307,7 @@ a {
     padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px 24px;
 }
 
 .portfolio-list-item {
@@ -342,9 +342,16 @@ a {
 
 .footer {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 188px;
+}
+
+.footer-container {
+
 }
 
 .footer-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -361,6 +368,8 @@ a {
 }
 
 .footer-text {
+    padding-top: 16px;
+    max-width: 264px;
     font-size: 16px;
     color:#F4F4FD;
     line-height: 1.5;
