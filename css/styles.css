@@ -199,12 +199,13 @@ a {
 .features-list {
     display: flex;
     align-items: center;
+    gap: 24px;
     
 }
 
 .features-point {
-    max-width: calc((100%-3*24)/4);
-    gap: 24px;
+    max-width: 264px;
+    
 }
 
 .features-item {
@@ -252,7 +253,7 @@ a {
     display: flex;
     padding-bottom: 120px;
     gap: 24px;
-    max-width: calc((100-3*24)/4);
+    max-width: 264px;
     
     
 }
@@ -313,11 +314,9 @@ a {
 
 .portfolio-list {
     padding-bottom: 120px;
-    max-width: 360px 0;
+    max-width: 360px;
     display: flex;
-    flex-wrap: wrap;
     gap: 48px 24px;
-    border: 1px solid #FFFFFF;
 }
 
 .portfolio-list-item {
