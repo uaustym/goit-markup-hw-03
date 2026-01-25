@@ -234,11 +234,12 @@ a {
 .team {
     color: #2E2F42;
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-container {
-    padding-top: 120px;
-}
+    }
 
 .people {
     padding-bottom: 72px;
@@ -254,7 +255,6 @@ a {
 
 .people-item {
     display: flex;
-    padding-bottom: 120px;
     gap: 24px;
     max-width: ((100-3*24)/4);
     
@@ -272,6 +272,11 @@ a {
         0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.img-container {
+    display: block;
+    gap: 24px;
 }
 
 .job-container {
