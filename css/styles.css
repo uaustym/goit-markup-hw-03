@@ -121,20 +121,41 @@ a {
 
 /*#region hero*/
 
+
+
 .title {
     background-color: #2E2F42;
     text-align: center;
-
+    border-bottom: 1px solid #E7E9FC;
     
 }
+
+.page-container {
+    display: block;
+    margin: auto;
+    padding-top: 188px;
+    padding-bottom: 292px;
+}
+
+.title-container {
+    max-width: 496px;
+    align-items: baseline;
+}
+
 .page-title {
     color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    }
+    align-items: center;
+}
+
+.push-container {
+    padding-top: 48px;
+}
 
 .push {
+    padding: 16px 32px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -153,18 +174,38 @@ a {
 
 /*#region features*/
 .features {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
+.features-container {
+   
 }
 
 .features-list {
+    display: flex;
+    align-items: center;
+    padding: 120px 0;
+    gap: 24px;
+    width: calc((100%-3*24)/4);
 
 }
 
 .features-point {
-
+    
+    
 }
 
 .features-item {
+    padding-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -189,6 +230,8 @@ a {
 }
 
 .people {
+    padding-top: 120px;
+    padding-bottom: 72px;
     color: #2E2F42;
     text-align: center;
     font-weight: 700;
@@ -199,8 +242,22 @@ a {
     letter-spacing: 0.02em;
 }
 
+.people-item {
+    display: flex;
+    padding-bottom: 120px;
+    gap: 24px;
+    
+}
+
 .people-list {
     background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.job-container {
+    padding: 32px 0;;
 }
 
 .people-title {
@@ -214,6 +271,7 @@ a {
 }
 
 .people-job {
+    padding-top: 8px;
     color: #434455;
     font-style: normal;
     font-size: 16px;
