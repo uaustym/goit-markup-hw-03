@@ -261,14 +261,13 @@ a {
 .people-item {
     display: flex;
     gap: 24px;
-    max-width: ((100-3*24)/4);
+    
     
     
 }
 
 .people-list {
-    
-    
+    max-width: 264px;
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-bottom-left-radius: 4px;
