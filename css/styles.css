@@ -335,7 +335,7 @@ img {
 }
 
 .portfolio-list-item {
-    max-width: calc((100%-48px)/3)
+    max-width: calc((100% - 48px)/3)
 }
 
 .portfolio-list-container {
